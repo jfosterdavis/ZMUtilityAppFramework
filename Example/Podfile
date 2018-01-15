@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZMUtilityAppFramework_Example' do
+  pod 'ZMUtilityAppFramework', :path => '../'
+
+  target 'ZMUtilityAppFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
