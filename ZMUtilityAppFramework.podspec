@@ -52,4 +52,5 @@ Includes the fundamental things needed to make simple utility apps within the Ze
 # Dependencies
 #Side menu UI container.
    s.dependency 'InteractiveSideMenu'
+   s.dependency 'GaugeKit'
 end

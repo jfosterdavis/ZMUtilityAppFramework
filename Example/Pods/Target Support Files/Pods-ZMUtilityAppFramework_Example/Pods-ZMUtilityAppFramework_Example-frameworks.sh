@@ -102,10 +102,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/GaugeKit/GaugeKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/InteractiveSideMenu/InteractiveSideMenu.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZMUtilityAppFramework/ZMUtilityAppFramework.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/GaugeKit/GaugeKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/InteractiveSideMenu/InteractiveSideMenu.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZMUtilityAppFramework/ZMUtilityAppFramework.framework"
 fi

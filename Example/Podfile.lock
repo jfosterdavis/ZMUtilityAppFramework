@@ -1,6 +1,8 @@
 PODS:
+  - GaugeKit (0.4.5)
   - InteractiveSideMenu (2.1)
   - ZMUtilityAppFramework (0.1.0):
+    - GaugeKit
     - InteractiveSideMenu
 
 DEPENDENCIES:
@@ -11,8 +13,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  GaugeKit: 7872069a8aed2d26b17fca110fe1ab59722f8a33
   InteractiveSideMenu: 9e3c8b004edd8b8c2ebaef2c3f0fde87c357b904
-  ZMUtilityAppFramework: 95a716676e8c35666fe18161269ece302e76dae9
+  ZMUtilityAppFramework: 95713c3828450fa41315f3cfbea135c4362c63c2
 
 PODFILE CHECKSUM: 81d2b800cc4f8e3d3c72326f4b20f63b01e414b7
 
