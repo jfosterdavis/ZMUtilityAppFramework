@@ -10,10 +10,12 @@
 		00F32F560975895976E85C16078A7856 /* Gauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27E0BE7958AE78A2115B9A78E2DA531 /* Gauge.swift */; };
 		03A176D1C10C47DE2AE177A5E967F65E /* MenuContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EFC9BADA46DC56D806A146D2FD1288 /* MenuContainerViewController.swift */; };
 		05303701B6B2F64E12E4F51179B90565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D267403C48EED45961BAC53383097F7 /* Foundation.framework */; };
+		0580F584E0E29289FE59D3651C997ADD /* ZMUtilityAppFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 360A1C3E8DDAC3901D97373F2F1D6027 /* ZMUtilityAppFramework-dummy.m */; };
 		0C8D8A1CAC38ACB22E973AF3014D5D47 /* InteractiveSideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D80EEE30B5E7D196614341D9B088818 /* InteractiveSideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		129658B22B5400E82176E11E727DD645 /* GaugeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB47129D3CCEE64B253EB6CCDA6F7C /* GaugeLine.swift */; };
 		1861AEFB5FD587EAA25436B23C6371C6 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7558CC0D564478216637F20BC13FAD7F /* Options.swift */; };
 		1BF90C1B1B15F6379BB116DF5BD99BC4 /* Gauge+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B56ACC50007A2EF101063B329E32317 /* Gauge+Animations.swift */; };
+		275F2E3C3DE243FDA11B0DB367F2832A /* ZMGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF74DDC2741641BC19B9F3D9979A463 /* ZMGauge.swift */; };
 		336869F4346279F4B343BC2342A7C296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D267403C48EED45961BAC53383097F7 /* Foundation.framework */; };
 		45B1E58CA73ED11C40CF8464704FA3BE /* UIColor+Blend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74922722457DA6F46E98F430AB2873 /* UIColor+Blend.swift */; };
 		48B15D0B0D855B5F3DBFC0AD9EFC0478 /* CAShapeLayer+oval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3AD8A88D5922AE31A9B78C00AE6D54 /* CAShapeLayer+oval.swift */; };
@@ -22,26 +24,25 @@
 		608D530DF166FEB8550F3ACFC3BDE235 /* MenuItemContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196102647C651C72C8708F593AA039D0 /* MenuItemContentViewController.swift */; };
 		6391CDCB38F2381231D7FD7610FE529B /* GaugeHalf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D9517E77BAAF0FD954E5DAA0917C0 /* GaugeHalf.swift */; };
 		63CE417DC1E883DA29BF864FEB0CB58C /* Pods-ZMUtilityAppFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEB188948A19C60459DEFA661BB4177 /* Pods-ZMUtilityAppFramework_Tests-dummy.m */; };
-		66994E06CC9DC07E783A786BCC648705 /* ZMUtilityAppFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C8C00575B0354303FE6830B54AB369 /* ZMUtilityAppFramework-dummy.m */; };
 		736A188A27CC1E7FA4D0C7C67EEBF1E6 /* InteractiveSideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BCA38FE13AA6CB652F968C664E745F0 /* InteractiveSideMenu.framework */; };
 		7375831673744083D37F920FA053108A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D267403C48EED45961BAC53383097F7 /* Foundation.framework */; };
 		77E86F8E23680D14FBA81FFAFFB0AF8D /* MenuTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2D68485D5B6B9A18197AF8DBE0EC4 /* MenuTransitioningDelegate.swift */; };
 		7B5A8233844D066AB5D92DC91968868E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D267403C48EED45961BAC53383097F7 /* Foundation.framework */; };
 		7DC13E97AD681D39513CF8D4F801460B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60B7F647F82D62B08839FD9DA7E0CF7 /* UIKit.framework */; };
-		81E9B48C28FD3084546F3B4F2552C227 /* ZMGauge.xib in Sources */ = {isa = PBXBuildFile; fileRef = CB66767296E1A9F1EDFAFA6BD4A1D4D9 /* ZMGauge.xib */; };
 		8257E72A4215013AC938AAB73C0860ED /* GaugeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B51492C0EAA1E13791494015C6FA125 /* GaugeKit.framework */; };
 		86D51A6113F856370C984E10C7995865 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EEFE7B77D0E374904C7418D409A82E /* QuartzCore.framework */; };
 		919D1421C1234A54B5512ADFDD5AEE44 /* GaugeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C97310ADF41FD677F7B22656F74B8E /* GaugeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92324D9BE2E4EA66C14C07FD4B07B906 /* Pods-ZMUtilityAppFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC87D36EE7CB1BBB0A9CF8F41ECF74A /* Pods-ZMUtilityAppFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DBC9BBE007724859996675C4FF1B1D5 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = E9052C8B76501B442F2DFAEC8B8F5AA9 /* Info.plist */; };
+		9E7B8F57052D03E52536D6E26BFB5AA7 /* ZMGauge.xib in Sources */ = {isa = PBXBuildFile; fileRef = 13E84A654D1445BF43B11E75AB917A63 /* ZMGauge.xib */; };
 		B3F43242CEFF416809F5C08E4DEE3535 /* Pods-ZMUtilityAppFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6260A9A638C0C8497CF741275491BB88 /* Pods-ZMUtilityAppFramework_Example-dummy.m */; };
 		BFE6023536B95348E4C9E902E1CC3F3D /* MenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0EDF1B6B01A8F441C9A73EA10FDEE2 /* MenuAnimator.swift */; };
-		C96E489D413C8847D33E2B16FCB3BDE7 /* ZMGauge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F18CD74640061B97BB924040A954F9 /* ZMGauge.swift */; };
-		DAB26AC190DB6139DB4083576AFB23DF /* ZMUtilityAppFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F11AFCCA6B73BFB72E4B6CE962D97C0 /* ZMUtilityAppFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C362F7F2FEF121EE223DA75A839E5A8C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CECA4B05D3D5032FDED3DB531DDCF30 /* ReplaceMe.swift */; };
+		DAB26AC190DB6139DB4083576AFB23DF /* ZMUtilityAppFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2648EB98363D6457FC05621A680C3932 /* ZMUtilityAppFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E12A3FF18A6A55C7115D6A8FF2EEEB2A /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = B55E7E1BE8CFAF28E41B4B1478520814 /* Main.storyboard */; };
 		E4BE531B31B4F75633072124498B3767 /* GaugeCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5387473F7DDBD4CB310B2CDF92DA2DBA /* GaugeCircle.swift */; };
 		E72121DA1694B4B7ECC518422B98885E /* InteractiveSideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8DF95453E11B069833F2C4DA196E1F /* InteractiveSideMenu-dummy.m */; };
 		EB2586672ECB9EE8154E40FA35B54746 /* GaugeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AED135252B7F37608C8E9C669E895446 /* GaugeKit-dummy.m */; };
-		F6B2124BBCE8A841D942720C9BF0CA1C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0753B9234EE91BD70D1BB0F00D3E3785 /* ReplaceMe.swift */; };
 		F6CC56C21137E1DEFEFA58EF77EE8AFB /* Pods-ZMUtilityAppFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE67A5779788C4A5A26E2EFDA9744F3D /* Pods-ZMUtilityAppFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD68B0CD84FFFF658C849CF73DC06311 /* GaugeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DFB4E5AF371BA1D5C00F697B1E4E02 /* GaugeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -86,31 +87,33 @@
 
 /* Begin PBXFileReference section */
 		03311CCCE154E2E4109E96FBC929BB5C /* Pods-ZMUtilityAppFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMUtilityAppFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		0753B9234EE91BD70D1BB0F00D3E3785 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZMUtilityAppFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		0C3AD8A88D5922AE31A9B78C00AE6D54 /* CAShapeLayer+oval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+oval.swift"; path = "GaugeKit/CAShapeLayer+oval.swift"; sourceTree = "<group>"; };
+		0D7D9298CB728C6DF8573E195DF955EC /* ZMUtilityAppFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMUtilityAppFramework-prefix.pch"; sourceTree = "<group>"; };
 		0E5D9517E77BAAF0FD954E5DAA0917C0 /* GaugeHalf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GaugeHalf.swift; path = GaugeKit/GaugeHalf.swift; sourceTree = "<group>"; };
-		0FE48495899E378D60B4E491EA7E953B /* Pods_ZMUtilityAppFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMUtilityAppFramework_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FE48495899E378D60B4E491EA7E953B /* Pods_ZMUtilityAppFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZMUtilityAppFramework_Example.framework; path = "Pods-ZMUtilityAppFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1355A05DE2BF2E2B925380EADBF94CF4 /* GaugeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GaugeKit.xcconfig; sourceTree = "<group>"; };
+		13E84A654D1445BF43B11E75AB917A63 /* ZMGauge.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMGauge.xib; path = ZMUtilityAppFramework/Classes/ZMGauge.xib; sourceTree = "<group>"; };
 		196102647C651C72C8708F593AA039D0 /* MenuItemContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemContentViewController.swift; path = Sources/MenuItemContentViewController.swift; sourceTree = "<group>"; };
 		1BCA38FE13AA6CB652F968C664E745F0 /* InteractiveSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InteractiveSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF74DDC2741641BC19B9F3D9979A463 /* ZMGauge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMGauge.swift; path = ZMUtilityAppFramework/Classes/ZMGauge.swift; sourceTree = "<group>"; };
 		1F3FAA669E64FADE45EE8866EEEB5703 /* Pods-ZMUtilityAppFramework_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMUtilityAppFramework_Example-resources.sh"; sourceTree = "<group>"; };
 		1FF587A387B42C647454FEEBE991F2FC /* Pods-ZMUtilityAppFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMUtilityAppFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		20F235BE08FB6DEB654F15550586A171 /* GaugeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GaugeKit-prefix.pch"; sourceTree = "<group>"; };
-		21EA818127DBC6D85FA18233AC189FC8 /* ZMUtilityAppFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMUtilityAppFramework-prefix.pch"; sourceTree = "<group>"; };
-		232FC82C47F07526E035A4E595C7C57C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23D35F662C3778F23B034393FE772A0E /* InteractiveSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InteractiveSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D35F662C3778F23B034393FE772A0E /* InteractiveSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InteractiveSideMenu.framework; path = InteractiveSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2648EB98363D6457FC05621A680C3932 /* ZMUtilityAppFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMUtilityAppFramework-umbrella.h"; sourceTree = "<group>"; };
 		2EDB97CF3129A2352E3D94AC530AA7B0 /* Pods-ZMUtilityAppFramework_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMUtilityAppFramework_Tests-resources.sh"; sourceTree = "<group>"; };
 		33DFB4E5AF371BA1D5C00F697B1E4E02 /* GaugeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GaugeKit.h; path = GaugeKit/GaugeKit.h; sourceTree = "<group>"; };
+		360A1C3E8DDAC3901D97373F2F1D6027 /* ZMUtilityAppFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZMUtilityAppFramework-dummy.m"; sourceTree = "<group>"; };
 		3A787E6DD43029B87DF2DD617D8F1AAD /* Pods-ZMUtilityAppFramework_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMUtilityAppFramework_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3B0EDF1B6B01A8F441C9A73EA10FDEE2 /* MenuAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuAnimator.swift; path = Sources/MenuAnimator.swift; sourceTree = "<group>"; };
-		3FDCB785BAC31B414815BF7BC9066CEE /* InteractiveSideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = InteractiveSideMenu.modulemap; sourceTree = "<group>"; };
+		3CECA4B05D3D5032FDED3DB531DDCF30 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZMUtilityAppFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		3FDCB785BAC31B414815BF7BC9066CEE /* InteractiveSideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = InteractiveSideMenu.modulemap; sourceTree = "<group>"; };
 		42CB47129D3CCEE64B253EB6CCDA6F7C /* GaugeLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GaugeLine.swift; path = GaugeKit/GaugeLine.swift; sourceTree = "<group>"; };
 		44A27088248327EFA8B0D8D37F99864B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44F18CD74640061B97BB924040A954F9 /* ZMGauge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZMGauge.swift; path = ZMUtilityAppFramework/Classes/ZMGauge.swift; sourceTree = "<group>"; };
 		46EFC9BADA46DC56D806A146D2FD1288 /* MenuContainerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuContainerViewController.swift; path = Sources/MenuContainerViewController.swift; sourceTree = "<group>"; };
+		476F41C10B3C131AD0C85FE5AA11F83F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47D7F7FB31A54ACB76AB576AA3F50C4E /* Pods-ZMUtilityAppFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMUtilityAppFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4B56ACC50007A2EF101063B329E32317 /* Gauge+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Gauge+Animations.swift"; path = "GaugeKit/Gauge+Animations.swift"; sourceTree = "<group>"; };
-		4F11AFCCA6B73BFB72E4B6CE962D97C0 /* ZMUtilityAppFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMUtilityAppFramework-umbrella.h"; sourceTree = "<group>"; };
 		534AB61EBB545761F16F00CBFEFB477B /* Pods-ZMUtilityAppFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMUtilityAppFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5387473F7DDBD4CB310B2CDF92DA2DBA /* GaugeCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GaugeCircle.swift; path = GaugeKit/GaugeCircle.swift; sourceTree = "<group>"; };
 		54508923093C075482BB997978101B6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,40 +121,38 @@
 		6260A9A638C0C8497CF741275491BB88 /* Pods-ZMUtilityAppFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMUtilityAppFramework_Example-dummy.m"; sourceTree = "<group>"; };
 		6539663BA7C699DB2C1166B2DB2D5872 /* Pods-ZMUtilityAppFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMUtilityAppFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6AB2D68485D5B6B9A18197AF8DBE0EC4 /* MenuTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuTransitioningDelegate.swift; path = Sources/MenuTransitioningDelegate.swift; sourceTree = "<group>"; };
+		6AC07BD95F265B794A0F01409FA9380A /* ZMUtilityAppFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZMUtilityAppFramework.modulemap; sourceTree = "<group>"; };
 		6D267403C48EED45961BAC53383097F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D80EEE30B5E7D196614341D9B088818 /* InteractiveSideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InteractiveSideMenu-umbrella.h"; sourceTree = "<group>"; };
 		6FD100FBD66FED8B41BB1D2BE17A965B /* Pods-ZMUtilityAppFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZMUtilityAppFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7558CC0D564478216637F20BC13FAD7F /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Sources/Options.swift; sourceTree = "<group>"; };
-		768872F9DE9C71207B0C9A7DC8EE014A /* GaugeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GaugeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		768872F9DE9C71207B0C9A7DC8EE014A /* GaugeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GaugeKit.framework; path = GaugeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8117D6C90120789D8CC75BB3A2408215 /* InteractiveSideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InteractiveSideMenu-prefix.pch"; sourceTree = "<group>"; };
 		87962414794A8F99710D9D99BE58DDE3 /* InteractiveSideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InteractiveSideMenu.xcconfig; sourceTree = "<group>"; };
 		8A8DF95453E11B069833F2C4DA196E1F /* InteractiveSideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InteractiveSideMenu-dummy.m"; sourceTree = "<group>"; };
-		8BCBE3BDF4F45A16CD8A97127881E92E /* Pods_ZMUtilityAppFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMUtilityAppFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCBE3BDF4F45A16CD8A97127881E92E /* Pods_ZMUtilityAppFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZMUtilityAppFramework_Tests.framework; path = "Pods-ZMUtilityAppFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEB188948A19C60459DEFA661BB4177 /* Pods-ZMUtilityAppFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMUtilityAppFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B51492C0EAA1E13791494015C6FA125 /* GaugeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GaugeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A42D0BC14EE624A060DD5E04AE1D3CE9 /* ZMUtilityAppFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZMUtilityAppFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42D0BC14EE624A060DD5E04AE1D3CE9 /* ZMUtilityAppFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZMUtilityAppFramework.framework; path = ZMUtilityAppFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C97310ADF41FD677F7B22656F74B8E /* GaugeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GaugeKit-umbrella.h"; sourceTree = "<group>"; };
 		ABE4052B2CA85B1C449A3E553DBC6534 /* Pods-ZMUtilityAppFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMUtilityAppFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AED135252B7F37608C8E9C669E895446 /* GaugeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GaugeKit-dummy.m"; sourceTree = "<group>"; };
 		B27E0BE7958AE78A2115B9A78E2DA531 /* Gauge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gauge.swift; path = GaugeKit/Gauge.swift; sourceTree = "<group>"; };
+		B55E7E1BE8CFAF28E41B4B1478520814 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ZMUtilityAppFramework/Classes/Main.storyboard; sourceTree = "<group>"; };
 		BE67A5779788C4A5A26E2EFDA9744F3D /* Pods-ZMUtilityAppFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMUtilityAppFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C4EEFE7B77D0E374904C7418D409A82E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C60B7F647F82D62B08839FD9DA7E0CF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		CB66767296E1A9F1EDFAFA6BD4A1D4D9 /* ZMGauge.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ZMGauge.xib; path = ZMUtilityAppFramework/Classes/ZMGauge.xib; sourceTree = "<group>"; };
-		CBCDCDFB45FF42AFA500CA9A84C91D9B /* Pods-ZMUtilityAppFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZMUtilityAppFramework_Tests.modulemap"; sourceTree = "<group>"; };
-		CC7B14B0AD076AFE1634F8DED97A3916 /* ZMUtilityAppFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZMUtilityAppFramework.modulemap; sourceTree = "<group>"; };
+		CBCDCDFB45FF42AFA500CA9A84C91D9B /* Pods-ZMUtilityAppFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZMUtilityAppFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		CDC87D36EE7CB1BBB0A9CF8F41ECF74A /* Pods-ZMUtilityAppFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMUtilityAppFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		D0F4B7AA882E7CF4CE27245285F6769A /* MenuViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = Sources/MenuViewController.swift; sourceTree = "<group>"; };
-		D2C8C00575B0354303FE6830B54AB369 /* ZMUtilityAppFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZMUtilityAppFramework-dummy.m"; sourceTree = "<group>"; };
-		DAAAF7235C2E3A533CDC4B484E0B5244 /* GaugeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GaugeKit.modulemap; sourceTree = "<group>"; };
+		DAAAF7235C2E3A533CDC4B484E0B5244 /* GaugeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GaugeKit.modulemap; sourceTree = "<group>"; };
 		DD7493E56EE6FD821936FBF9AC07465D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7FA6E27BA9E8679C580C377DD2A0E48 /* ZMUtilityAppFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMUtilityAppFramework.xcconfig; sourceTree = "<group>"; };
+		E8FD12A2D94F8ED535C45CE6EF80BD19 /* ZMUtilityAppFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMUtilityAppFramework.xcconfig; sourceTree = "<group>"; };
 		E9052C8B76501B442F2DFAEC8B8F5AA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = GaugeKit/Info.plist; sourceTree = "<group>"; };
 		EC88CB63D9D46057E9852191B826726B /* Pods-ZMUtilityAppFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZMUtilityAppFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EC8F8AC3C1A6D108833FF04CA96FB34B /* Pods-ZMUtilityAppFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZMUtilityAppFramework_Example.modulemap"; sourceTree = "<group>"; };
+		EC8F8AC3C1A6D108833FF04CA96FB34B /* Pods-ZMUtilityAppFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZMUtilityAppFramework_Example.modulemap"; sourceTree = "<group>"; };
 		EF74922722457DA6F46E98F430AB2873 /* UIColor+Blend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Blend.swift"; path = "GaugeKit/UIColor+Blend.swift"; sourceTree = "<group>"; };
-		F632C7BC2013AAB1000E7B66 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ZMUtilityAppFramework/Classes/Main.storyboard; sourceTree = "<group>"; };
 		FCEAC2981FF24144BE7C915B7030AB15 /* Pods-ZMUtilityAppFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMUtilityAppFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -249,17 +250,18 @@
 			path = "Target Support Files/Pods-ZMUtilityAppFramework_Tests";
 			sourceTree = "<group>";
 		};
-		4EB67AACD387C7BCFCF464E9CD49A194 /* ZMUtilityAppFramework */ = {
+		4A6C292579F2D68359F5B97B688C46FD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0753B9234EE91BD70D1BB0F00D3E3785 /* ReplaceMe.swift */,
-				F632C7BC2013AAB1000E7B66 /* Main.storyboard */,
-				44F18CD74640061B97BB924040A954F9 /* ZMGauge.swift */,
-				CB66767296E1A9F1EDFAFA6BD4A1D4D9 /* ZMGauge.xib */,
-				D0DF64EE39894AB67FC9F9A647D1E994 /* Support Files */,
+				476F41C10B3C131AD0C85FE5AA11F83F /* Info.plist */,
+				6AC07BD95F265B794A0F01409FA9380A /* ZMUtilityAppFramework.modulemap */,
+				E8FD12A2D94F8ED535C45CE6EF80BD19 /* ZMUtilityAppFramework.xcconfig */,
+				360A1C3E8DDAC3901D97373F2F1D6027 /* ZMUtilityAppFramework-dummy.m */,
+				0D7D9298CB728C6DF8573E195DF955EC /* ZMUtilityAppFramework-prefix.pch */,
+				2648EB98363D6457FC05621A680C3932 /* ZMUtilityAppFramework-umbrella.h */,
 			);
-			name = ZMUtilityAppFramework;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZMUtilityAppFramework";
 			sourceTree = "<group>";
 		};
 		5C4C051713382D230A3E1AB589BF19A3 /* Frameworks */ = {
@@ -276,7 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E8B143B5941CA4A7F4B46CCEEC51BC1D /* Development Pods */,
+				AE09FAF8D3C6E7B0F34A57CB6D1BF4B8 /* Development Pods */,
 				5C4C051713382D230A3E1AB589BF19A3 /* Frameworks */,
 				E1CEC3C582A5A1C4D13120BC03EDE62E /* Pods */,
 				85291F79628A353616A8B0E1EB349A2C /* Products */,
@@ -338,6 +340,7 @@
 				EF74922722457DA6F46E98F430AB2873 /* UIColor+Blend.swift */,
 				84A2CF68695E46DA61A05033045B3B45 /* Support Files */,
 			);
+			name = GaugeKit;
 			path = GaugeKit;
 			sourceTree = "<group>";
 		};
@@ -352,7 +355,16 @@
 				7558CC0D564478216637F20BC13FAD7F /* Options.swift */,
 				8371F37E5E0A7650773F5AECFB687FBC /* Support Files */,
 			);
+			name = InteractiveSideMenu;
 			path = InteractiveSideMenu;
+			sourceTree = "<group>";
+		};
+		AE09FAF8D3C6E7B0F34A57CB6D1BF4B8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D897FC1134DBC9C49E1D46B1A7C689AF /* ZMUtilityAppFramework */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC64A406D4ACC668BD6756D8C5707A62 /* Targets Support Files */ = {
@@ -364,18 +376,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D0DF64EE39894AB67FC9F9A647D1E994 /* Support Files */ = {
+		D897FC1134DBC9C49E1D46B1A7C689AF /* ZMUtilityAppFramework */ = {
 			isa = PBXGroup;
 			children = (
-				232FC82C47F07526E035A4E595C7C57C /* Info.plist */,
-				CC7B14B0AD076AFE1634F8DED97A3916 /* ZMUtilityAppFramework.modulemap */,
-				E7FA6E27BA9E8679C580C377DD2A0E48 /* ZMUtilityAppFramework.xcconfig */,
-				D2C8C00575B0354303FE6830B54AB369 /* ZMUtilityAppFramework-dummy.m */,
-				21EA818127DBC6D85FA18233AC189FC8 /* ZMUtilityAppFramework-prefix.pch */,
-				4F11AFCCA6B73BFB72E4B6CE962D97C0 /* ZMUtilityAppFramework-umbrella.h */,
+				B55E7E1BE8CFAF28E41B4B1478520814 /* Main.storyboard */,
+				3CECA4B05D3D5032FDED3DB531DDCF30 /* ReplaceMe.swift */,
+				1EF74DDC2741641BC19B9F3D9979A463 /* ZMGauge.swift */,
+				13E84A654D1445BF43B11E75AB917A63 /* ZMGauge.xib */,
+				4A6C292579F2D68359F5B97B688C46FD /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZMUtilityAppFramework";
+			name = ZMUtilityAppFramework;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E1CEC3C582A5A1C4D13120BC03EDE62E /* Pods */ = {
@@ -385,14 +396,6 @@
 				A4CE5A83E132E13E383C695A2D9EFDD6 /* InteractiveSideMenu */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		E8B143B5941CA4A7F4B46CCEEC51BC1D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4EB67AACD387C7BCFCF464E9CD49A194 /* ZMUtilityAppFramework */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -517,7 +520,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4072DE01F7F801A5B1222E1EFBE46C69 /* Build configuration list for PBXNativeTarget "ZMUtilityAppFramework" */;
 			buildPhases = (
-				8210EE0A2C3C2E5C254828980201A1F9 /* Sources */,
+				B63F9FF3B0D398D7C89253541CB9E103 /* Sources */,
 				4043B0255A4E2F608BF175235269677C /* Frameworks */,
 				E329907BD08A004BDF2F64D24067B437 /* Headers */,
 			);
@@ -571,17 +574,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8210EE0A2C3C2E5C254828980201A1F9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6B2124BBCE8A841D942720C9BF0CA1C /* ReplaceMe.swift in Sources */,
-				C96E489D413C8847D33E2B16FCB3BDE7 /* ZMGauge.swift in Sources */,
-				81E9B48C28FD3084546F3B4F2552C227 /* ZMGauge.xib in Sources */,
-				66994E06CC9DC07E783A786BCC648705 /* ZMUtilityAppFramework-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		935D539F9DB071AA1B7FEF4A73F7DA46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -617,6 +609,18 @@
 				129658B22B5400E82176E11E727DD645 /* GaugeLine.swift in Sources */,
 				9DBC9BBE007724859996675C4FF1B1D5 /* Info.plist in Sources */,
 				45B1E58CA73ED11C40CF8464704FA3BE /* UIColor+Blend.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63F9FF3B0D398D7C89253541CB9E103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12A3FF18A6A55C7115D6A8FF2EEEB2A /* Main.storyboard in Sources */,
+				C362F7F2FEF121EE223DA75A839E5A8C /* ReplaceMe.swift in Sources */,
+				275F2E3C3DE243FDA11B0DB367F2832A /* ZMGauge.swift in Sources */,
+				9E7B8F57052D03E52536D6E26BFB5AA7 /* ZMGauge.xib in Sources */,
+				0580F584E0E29289FE59D3651C997ADD /* ZMUtilityAppFramework-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -904,7 +908,7 @@
 		};
 		A1ACCD40A46F20EA6C27AC1C56F63694 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7FA6E27BA9E8679C580C377DD2A0E48 /* ZMUtilityAppFramework.xcconfig */;
+			baseConfigurationReference = E8FD12A2D94F8ED535C45CE6EF80BD19 /* ZMUtilityAppFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1064,7 +1068,7 @@
 		};
 		FEB6034316910B54E1D9FAE837D7C0C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7FA6E27BA9E8679C580C377DD2A0E48 /* ZMUtilityAppFramework.xcconfig */;
+			baseConfigurationReference = E8FD12A2D94F8ED535C45CE6EF80BD19 /* ZMUtilityAppFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
