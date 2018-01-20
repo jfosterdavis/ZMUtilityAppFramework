@@ -1,0 +1,6 @@
+framework module ZMUtilityAppFramework {
+  umbrella header "ZMUtilityAppFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
