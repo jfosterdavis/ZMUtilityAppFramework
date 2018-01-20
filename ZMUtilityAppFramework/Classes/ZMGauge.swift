@@ -1,22 +1,30 @@
 //
 //  ZMGauge.swift
-//  InteractiveSideMenu
+//
 //
 //  Created by Jacob Foster Davis on 1/20/18.
 //  Adapted from https://developerslogblog.wordpress.com/2017/05/14/swiff-3-reusable-components-using-xib-files-and-the-interface-builder/
 
 import UIKit
+import GaugeKit
 
-@IBDesignable class ZMGauge: UIView {
+@IBDesignable open class ZMGauge: UIView {
     
     var view: UIView!
+    
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var gauge: Gauge!
+    
+    @IBOutlet weak var valueLabel: UILabel!
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         xibSetup()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         xibSetup()
     }

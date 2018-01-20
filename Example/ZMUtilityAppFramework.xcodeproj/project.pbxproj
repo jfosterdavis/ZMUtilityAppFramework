@@ -273,13 +273,11 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZMUtilityAppFramework_Example/Pods-ZMUtilityAppFramework_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GaugeKit/GaugeKit.framework",
-				"${BUILT_PRODUCTS_DIR}/InteractiveSideMenu/InteractiveSideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/ZMUtilityAppFramework/ZMUtilityAppFramework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GaugeKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InteractiveSideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZMUtilityAppFramework.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,10 +19,13 @@
     "ios": "10.0"
   },
   "source_files": "ZMUtilityAppFramework/Classes/**/*",
+  "resource_bundles": {
+    "ZMUtilityAppFramework": [
+      "ZMUtilityAppFramework/Assets/*.png",
+      "ZMUtilityAppFramework/**/*.{storyboard,xib}"
+    ]
+  },
   "dependencies": {
-    "InteractiveSideMenu": [
-
-    ],
     "GaugeKit": [
 
     ]

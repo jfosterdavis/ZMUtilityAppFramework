@@ -42,15 +42,14 @@ Includes the fundamental things needed to make simple utility apps within the Ze
 
   s.source_files = 'ZMUtilityAppFramework/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZMUtilityAppFramework' => ['ZMUtilityAppFramework/Assets/*.png']
-  # }
+#s.resource_bundles = {
+#     'ZMUtilityAppFramework' => ['ZMUtilityAppFramework/Assets/*.png', 'ZMUtilityAppFramework/**/*.{storyboard,xib}']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
 
 # Dependencies
-#Side menu UI container.
-   s.dependency 'InteractiveSideMenu'
+#GaugeKit
    s.dependency 'GaugeKit'
 end
